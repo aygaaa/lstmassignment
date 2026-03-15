@@ -59,4 +59,3 @@ for t, x_t in enumerate(X):
 y_hat = Wy * h_prev + by
 print(f"\n--- Final Prediction ---")
 print(f"Predicted next value (y_hat): {y_hat:.3f}")
-print(f"Note: The PDF result is ~3.796. Small differences may arise due to rounding in the PDF's manual steps.")
